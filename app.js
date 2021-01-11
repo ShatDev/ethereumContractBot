@@ -43,7 +43,7 @@ function startConstantPriceCheck(){  // start checking for price every minute
 
 // To prevent calling smart contract first 15 minutes after server starts ( no need for that ), 
 // 15 minutes after every contract write
-// and n minutes to wait after last write contract ( if someone else write it)
+// and n minutes to wait after last write contract ( if someone else write it )
 function timeoutForContractCheck(minutes){ 
     is15minPassed = false;
     setTimeout( () => {

@@ -1,6 +1,6 @@
 # Ethereum Contract Bot
 
-### Instalacija
+### Instalacija i pokretanje
 Kada se skine projekat, potrebno je da se uradi: 'npm i' kako bi se skinule potrebne biblioteke ( express i web3 ) jer nije okacen node_modules/. 
 Nakon toga se pokrece sa komandom node app.js. Nije potrebna nikakva interakcija sa user-om, server vrsi provere i upisivanje automatski.
 
